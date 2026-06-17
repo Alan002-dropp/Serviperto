@@ -1,20 +1,28 @@
 
+
 # ServiPerto
 
 ## Sobre o Projeto
 
-O ServiPerto é um aplicativo que conecta clientes a profissionais de diversas áreas, facilitando a contratação de serviços de forma rápida, prática e segura.
+O **ServiPerto** é um aplicativo mobile que conecta clientes a profissionais prestadores de serviços, permitindo encontrar e contratar serviços de forma rápida, prática e segura.
 
-## Serviços Propostos
+## Integrantes
 
-* Eletricista
-* Encanador
-* Diarista
-* Pintor
-* Jardineiro
-* Técnico em Informática
-* Montador de Móveis
-* Serviços Gerais
+| Nome            | Matrícula                 | Atribuições                                                                                                     |
+| --------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Alan Nascimento | UC24202876 | Desenvolvimento das telas, interface do usuário (UI), e documentação do projeto. |
+| Ana Clara       | UC24202873 | Modelagem das telas, testes da aplicação, Desenvolvimento das telas, integração das funcionalidades           |
+| Aquila Lopo     | UC24202205 | Desenvolvimento de funcionalidades, organização do projeto,  integração das funcionalidades, testes e implementação.                  |
+
+
+## Funcionalidades
+
+* Cadastro e login de usuários;
+* Visualização de serviços disponíveis;
+* Busca por profissionais;
+* Tela financeira;
+* Navegação entre as telas do aplicativo;
+* Interface intuitiva e responsiva.
 
 ## Tecnologias Utilizadas
 
@@ -22,25 +30,32 @@ O ServiPerto é um aplicativo que conecta clientes a profissionais de diversas �
 * Expo
 * TypeScript
 
-## Como Executar
+## Como Executar o Projeto
 
-1. Instale as dependências:
+1. Clone o repositório:
 
-```bash
-npm install
-```
+   ```bash
+   git clone <link-do-repositorio>
+   ```
 
-2. Inicie o projeto:
+2. Acesse a pasta do projeto:
 
-```bash
-npx expo start
-```
+   ```bash
+   cd serviperto
+   ```
 
-3. Escaneie o QR Code com o aplicativo Expo Go ou execute em um emulador.
+3. Instale as dependências:
 
- Integrantes
+   ```bash
+   npm install
+   ```
 
-* Alan Nascimento
-* Ana Clara
-* Aquila Lopo
+4. Inicie a aplicação:
+
+   ```bash
+   npx expo start
+   ```
+
+5. Execute no Expo Go ou em um emulador Android/iOS.
+
 
